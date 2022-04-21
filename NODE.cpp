@@ -15,7 +15,7 @@ NODE* NODE::move_next(){
 }
 void  NODE::show_node(){
       if(data!=0) cout<<"Node data: "<<data<<endl;
-      else cout<<"Node data: "<<data<<" pass away"<<endl;
+      else cout<<"Node data: "<<data<<" (has passed away)"<<endl;
 }
 void NODE::insert(NODE*& x){
      x->next=this;
